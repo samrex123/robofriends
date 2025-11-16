@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import 'tachyons/css/tachyons.min.css';
 import App from './App';
+import { robots } from './robots';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <div>
+      <App />
+    </div>
   </React.StrictMode>
 );
 
