@@ -1,0 +1,15 @@
+.scroll {
+  overflow-y: scroll;
+  border: 1px solid black;
+  height: 800px; 
+
+  /* Hide scrollbar in IE, Edge */
+  -ms-overflow-style: none;
+  /* Hide scrollbar in Firefox */
+  scrollbar-width: none;
+}
+
+/* Hide scrollbar in WebKit browsers (Chrome, Safari, Edge Chromium) */
+.scroll::-webkit-scrollbar {
+  display: none;
+}
